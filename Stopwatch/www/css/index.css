@@ -5,18 +5,51 @@ body {
     color: #fff;
 }
 
+/* Timer */
 #timer {
     text-align: center;
-    font-size: 40px;
-    margin-top: 200px;
+    font-size: 70px;
+    margin-top: 50px;
+}
+
+/* Buttons */
+.btn-group {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+}
+
+#lapreset{
+    width: 50%;
+    height: 100px;
+    background: #cccccc;
+    color: #333;
+    font-size: 24px;
+    float: left;
 }
 
 #stopstart {
-    width: 100%;
+    width: 50%;
     height: 100px;
-    position: absolute;
-    bottom: 0;
     background: #315231;
     color: #fff;
     font-size: 24px;
+    float: right;
+}
+
+/* Timer List */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    background: #555;
+    border-bottom: 1px solid #fff;
+}
+
+li:first-child{
+    border-top:1px solid #ffffff;
 }
